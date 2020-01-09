@@ -1,14 +1,24 @@
-# glacier-eslint
+# @jdrunken/eslint
 
 ## install
 
 ```
-npm install eslint-config-glacier-eslint --save-dev
+npm install @jdrunken/eslint --save-dev
 ```
 
 ## using
 
-Setting option, It will added in package.json by automated
+- add your package.json
+  ``` json
+  ...
+  "eslint": {
+    "extends": [
+      "./node_modules/@jdrunken/eslint/eslint.js"
+    ]
+  }
+  ...
+  ```
+
 
 ## `.eslintignore`
 
@@ -21,3 +31,6 @@ for example,
 ```
 
 For more information: https://eslint.org/docs/user-guide/configuring.html#disabling-rules-with-inline-comments
+
+
+

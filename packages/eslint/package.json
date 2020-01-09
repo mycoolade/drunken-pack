@@ -13,10 +13,7 @@
   ],
   "author": "jDrunken",
   "contributors": [
-    {
-      "name": "jDrunken",
-      "email": "mycoolade@gmail.com"
-    }
+    "jDrunken <mycoolade@gmail.com>"
   ],
   "license": "MIT",
   "main": "eslint.js",
@@ -42,8 +39,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "./eslint.js",
-      "drunken-eslint"
+      "./eslint.js"
     ]
-  }
+  },
+  "devDependencies": {}
 }

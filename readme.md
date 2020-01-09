@@ -1,6 +1,6 @@
-# glacier [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# drunken-pack [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-klaytn toolkit to frontend develop
+toolkit to web frontend develop
 
 ## installation
 
@@ -11,19 +11,19 @@ npm install
 
 ## parts
 
-### glacier-style
+### @jdrunken/style
 
 - normalize css
 - env & util function
 
-See this [documents][readme-glacier-style] get more information
+See this [documents][readme-style] get more information
 
 
-### glacier-stylelint
+### @jdrunkenstylelint
 
 - lint for css/scss
 
-See this [document][readme-glacier-stylelint]
+See this [document][readme-stylelint]
 
 
 
@@ -62,7 +62,7 @@ If you publish each module to NPM, follow after.
 
     ...
 
-    Logged in as jdrunken on https://registry.npmjs.org/.
+    Logged in as @jdrunken on https://registry.npmjs.org/.
     ```
 
 4.  check infomation
@@ -86,5 +86,5 @@ lerna create <package-name>
 
 <!-- link -->
 [lerna_repo]: https://github.com/lerna/lerna
-[readme-glacier-style]: ./packages/glacier-style/readme.md
-[readme-glacier-stylelint]: ./packages/glacier-stylelint/readme.md
+[readme-style]: ./packages/style/readme.md
+[readme-stylelint]: ./packages/stylelint/readme.md
