@@ -1,31 +1,26 @@
 {
-  "name": "glacier-style",
-  "version": "0.1.7",
-  "description": "normalize style and scss util function for klaytn frontend dev",
+  "name": "@jdrunken/style",
+  "version": "0.1.0",
+  "description": "normalize style and scss util function for frontend dev",
   "scripts": {
     "dev": "gulp dev",
     "build": "gulp build"
   },
-  "homepage": "https://github.com/ground-x/glacier/tree/master/packages/glacier-style#readme",
+  "homepage": "https://github.com/jdrunken/drunken-pack/tree/master/packages/style#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ground-x/glacier.git"
+    "url": "git+https://github.com/jdrunken/drunken-pack.git"
   },
-  "main": "./src/index.scss",
+  "main": "index.scss",
   "keywords": [
-    "klaytn",
-    "ground-x",
-    "groundx",
+    "@jdrunken",
     "css",
     "normalize",
     "reset"
   ],
-  "author": "Ground X - Frontend lab",
+  "author": "jDrunken",
   "contributors": [
-    {
-      "name": "jDrunken",
-      "email": "hoon.shin@groundx.xyz"
-    }
+    "jDrunken <mycoolade@gmail.com>"
   ],
   "dependencies": {
     "gulp": "^4.0.2",
@@ -42,5 +37,10 @@
     "not UCAndroid > 0",
     "Android >= 4",
     "iOS >= 9"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/jdrunken/drunken-pack/issues"
+  },
+  "devDependencies": {},
+  "license": "ISC"
 }

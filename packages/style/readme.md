@@ -1,4 +1,4 @@
-# glacier-style
+# @jdrunken/style
 - normalize style in scss file
 
 ## using
@@ -7,12 +7,12 @@ in your project
 ### type sass
 
 ```
-@import './node_modules/glacier-style/glacier.scss';
+@import './node_modules/@jdrunken/style/index.scss';
 ```
 
 ### type css
 ```
-@import './node_modules/glacier-style/glacier.css';
+@import './node_modules/@jdrunken/style/index.css';
 ```
 
 ### with gulp.js@4.0
@@ -25,7 +25,7 @@ const sass = require('gulp-sass') // css pre-processor
 
 function css () {
   return src([
-      'node_modules/glacier/glacier.scss',
+      'node_modules/@jdrunken/style/index.scss',
       'path/to/your/css/**.scss'
     ])
     .pipe(sass())

@@ -5,7 +5,7 @@ const autoprefixer = require('gulp-autoprefixer')               // for cross bro
 const sourcemaps = require('gulp-sourcemaps')                   // source tracking
 
 function cssSourcemap () {
-  return src('glacier.scss')
+  return src('index.scss')
     .pipe(sourcemaps.init())
     .pipe(
       sass({
@@ -25,7 +25,7 @@ function cssSourcemap () {
 }
 
 function css () {
-  return src('glacier.scss')
+  return src('index.scss')
     .pipe(
       sass({
         outputStyle: 'compressed'
