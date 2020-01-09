@@ -1,0 +1,49 @@
+{
+  "name": "@jdrunken/eslint",
+  "version": "0.1.0",
+  "description": "eslint for React",
+  "keywords": [
+    "@jdrunken",
+    "jdrunken",
+    "eslint",
+    "lint",
+    "react",
+    "eslint-formatter",
+    "eslintformatter"
+  ],
+  "author": "jDrunken",
+  "contributors": [
+    {
+      "name": "jDrunken",
+      "email": "mycoolade@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "main": "eslint.js",
+  "homepage": "https://github.com/jdrunken/drunken-pack/tree/master/packages/eslint#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdrunken/drunken-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdrunken/drunken-pack/issues"
+  },
+  "dependencies": {
+    "app-root-path": "^2.2.1",
+    "babel-eslint": "^10.0.1",
+    "colors": "^1.3.3",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-cypress": "^2.6.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./eslint.js",
+      "drunken-eslint"
+    ]
+  }
+}
