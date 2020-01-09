@@ -1,4 +1,4 @@
-# glacier-stylelint
+# @jdrunken/stylelint
 
 
 ## dependancy
@@ -9,7 +9,7 @@
 ## install
 
 ```
-npm install glacier-stylelint
+npm install @jdrunken/stylelint stylelint --save-dev
 ```
 
 
@@ -18,15 +18,16 @@ npm install glacier-stylelint
 take one follow after this.
 
 - run this script in ternimal
-``` bash
+  ``` bash
   npx json -I -f package.json -e 'this.stylelint = { "extends" = "./node_modules/glacier-stylelint/stylelintrc.yml"'
   ```
+
 - add your package.json
   ``` json
   ...
   "stylelint": {
     "extends": [
-      "./node_modules/glacier-stylelint/stylelintrc.yml"
+      "./node_modules/@jdrunken/stylelint/stylelintrc.yml"
     ]
   }
   ...
