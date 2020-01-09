@@ -1,31 +1,26 @@
 {
-  "name": "glacier-stylelint",
-  "version": "0.1.7",
+  "name": "@jdrunken/stylelint",
+  "version": "0.1.0",
   "description": "lint for style codes",
   "keywords": [
-    "klaytn",
-    "groundx",
-    "ground-x",
+    "@jdrunken",
     "stylelint",
     "lint",
     "style"
   ],
-  "author": "Ground X - Frontend lab",
+  "author": "jDrunken",
   "contributors": [
-    {
-      "name": "jDrunken",
-      "email": "hoon.shin@groundx.xyz"
-    }
+    "jDrunken <mycoolade@mgmail.com>"
   ],
   "license": "MIT",
   "main": "stylelint.yml",
-  "homepage": "https://github.com/ground-x/glacier/tree/master/packages/glacier-stylelint#readme",
+  "homepage": "https://github.com/jdrunken/drunken-pack/tree/master/packages/stylelint#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ground-x/glacier.git"
+    "url": "git+https://github.com/jdrunken/drunken-pack.git"
   },
   "bugs": {
-    "url": "https://github.com/ground-x/glacier/issues"
+    "url": "https://github.com/jdurnken/drunken-pack/issues"
   },
   "dependencies": {
     "stylelint": "^10.1.0",
@@ -33,5 +28,9 @@
     "stylelint-config-recommended": "^2.2.0",
     "stylelint-config-standard": "^18.3.0",
     "stylelint-scss": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
