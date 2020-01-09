@@ -1,0 +1,37 @@
+{
+  "name": "glacier-stylelint",
+  "version": "0.1.7",
+  "description": "lint for style codes",
+  "keywords": [
+    "klaytn",
+    "groundx",
+    "ground-x",
+    "stylelint",
+    "lint",
+    "style"
+  ],
+  "author": "Ground X - Frontend lab",
+  "contributors": [
+    {
+      "name": "jDrunken",
+      "email": "hoon.shin@groundx.xyz"
+    }
+  ],
+  "license": "MIT",
+  "main": "stylelint.yml",
+  "homepage": "https://github.com/ground-x/glacier/tree/master/packages/glacier-stylelint#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ground-x/glacier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ground-x/glacier/issues"
+  },
+  "dependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-scss": "^3.9.0"
+  }
+}

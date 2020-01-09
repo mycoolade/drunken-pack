@@ -1,0 +1,46 @@
+{
+  "name": "glacier-style",
+  "version": "0.1.7",
+  "description": "normalize style and scss util function for klaytn frontend dev",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "homepage": "https://github.com/ground-x/glacier/tree/master/packages/glacier-style#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ground-x/glacier.git"
+  },
+  "main": "./src/index.scss",
+  "keywords": [
+    "klaytn",
+    "ground-x",
+    "groundx",
+    "css",
+    "normalize",
+    "reset"
+  ],
+  "author": "Ground X - Frontend lab",
+  "contributors": [
+    {
+      "name": "jDrunken",
+      "email": "hoon.shin@groundx.xyz"
+    }
+  ],
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "browserslist": [
+    "> 2% and Last 2 version",
+    "IE 11",
+    "Last 2 Edge version",
+    "Last 3 Safari version",
+    "Last 2 firefox version",
+    "not UCAndroid > 0",
+    "Android >= 4",
+    "iOS >= 9"
+  ]
+}

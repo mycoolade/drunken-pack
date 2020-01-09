@@ -1,0 +1,37 @@
+{
+  "name": "drunken-pack",
+  "description": "frontend util package",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jDrunken/drunken-pack.git"
+  },
+  "keywords": [
+    "css",
+    "lint",
+    "reset",
+    "toolkit",
+    "startkit",
+    "frontend",
+    "react"
+  ],
+  "author": "jDrunken",
+  "contributors": [
+    "jDrunken <mycoolade@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/jDrunken/drunken-pack/issues"
+  },
+  "homepage": "https://github.com/jDrunken/drunken-pack#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.16.4",
+    "lerna-changelog": "^0.8.2"
+  },
+  "dependencies": {
+    "colors": "^1.3.3"
+  }
+}

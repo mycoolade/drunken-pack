@@ -1,0 +1,128 @@
+# rule of style
+# ------------------------------------------------------------------------------
+# stylelint :: https://github.com/stylelint/stylelint
+# styleint-scss :: https://github.com/kristerkari/stylelint-scss
+
+---
+
+extends: stylelint-config-recommended
+plugins: stylelint-scss
+
+rules:
+
+  # common
+  no-extra-semicolons: true
+  no-duplicate-selectors: null
+  indentation:
+    - 2
+  max-empty-lines: 1
+  max-nesting-depth:
+    - 4
+    - ignore:
+      - blockless-at-rules
+      - pseudo-classes
+  block-no-empty: true
+  string-no-newline: true
+
+  string-quotes: single
+  number-leading-zero: always
+
+  # empty line
+  no-empty-first-line: true
+  rule-empty-line-before:
+    - always
+    - except: first-nested
+      ignore: after-comment
+
+  # color
+  color-no-invalid-hex: true
+  color-hex-length: long
+  color-hex-case: lower
+
+  # comment
+  comment-no-empty: true
+  comment-empty-line-before:
+    - always
+    - except: first-nested
+    - ignore: after-comment
+
+  scss/double-slash-comment-empty-line-before:
+    - always
+    - except: first-nested
+    - ignore: between-comments
+  scss/double-slash-comment-whitespace-inside: always
+  comment-whitespace-inside: always
+
+  # unit
+  unit-whitelist:
+    - em
+    - rem
+    - "%"
+    - px
+    - s
+    - deg
+    - vw
+    - vh
+
+  # value
+  value-list-comma-space-after: always-single-line
+  value-list-comma-space-before: never
+  value-keyword-case: lower
+
+  # property
+  property-case: lower
+
+  # selector
+  no-descending-specificity: null
+  selector-id-pattern:
+    - ^[^A-Z]((?![A-Z][A-Z]).)*$
+    - message: Id naming rule is camelCase, uppercase letters can not be used in succession. start should be in lowercase
+
+  selector-class-pattern:
+    - ^(is-)?[a-z\-]*$
+    - message: Class naming rule not-allowd uppercase, underbar( _ )
+  selector-combinator-space-after: always
+  selector-max-empty-lines: 0
+
+  selector-pseudo-class-no-unknown: true
+  selector-attribute-brackets-space-inside: never
+  selector-pseudo-element-colon-notation: double
+  selector-list-comma-space-before: never
+  selector-list-comma-space-after: always-single-line
+  selector-pseudo-class-case: lower
+  selector-pseudo-element-case: lower
+  selector-list-comma-newline-after: always-multi-line
+  selector-list-comma-newline-before: never-multi-line
+
+  # code block. ex {...}
+  declaration-colon-space-before: never
+  declaration-block-single-line-max-declarations:
+    - 1
+  declaration-block-trailing-semicolon: always
+
+  declaration-block-no-duplicate-properties:
+    - true
+    - ignore:
+      - consecutive-duplicates-with-different-values
+
+  declaration-block-semicolon-newline-after: always
+  declaration-block-semicolon-newline-before: never-multi-line
+  declaration-block-semicolon-space-before: never
+  declaration-colon-newline-after: "always-multi-line"
+
+  block-closing-brace-empty-line-before: never
+  block-closing-brace-newline-after: always
+  block-closing-brace-newline-before: always
+  block-opening-brace-newline-after: always
+  media-feature-name-case: lower
+
+  function-comma-newline-after: never-multi-line
+
+  # at-rule. ex) @media
+  at-rule-no-unknown: null
+  scss/at-rule-no-unknown: true
+  at-rule-semicolon-newline-after: always
+  at-rule-name-case: lower
+
+  # fonts
+  font-family-no-missing-generic-family-keyword: null     # When declaring a font, you may not declare a regular font. (serif, sans-serif)
