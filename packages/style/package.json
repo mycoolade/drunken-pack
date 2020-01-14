@@ -1,6 +1,6 @@
 {
   "name": "@jdrunken/style",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "normalize style and scss util function for frontend dev",
   "scripts": {
     "dev": "gulp dev",
@@ -41,6 +41,5 @@
   "bugs": {
     "url": "https://github.com/jdrunken/drunken-pack/issues"
   },
-  "devDependencies": {},
   "license": "ISC"
 }
