@@ -120,3 +120,7 @@ img {
 a:link, button {
   -webkit-tap-highlight-color:rgba(255, 255, 255, 0);
 }
+
+form, legend, input, select, textarea {
+  font-family:inherit;
+}
