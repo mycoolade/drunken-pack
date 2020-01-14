@@ -41,5 +41,6 @@
   "bugs": {
     "url": "https://github.com/jdrunken/drunken-pack/issues"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "013e44063191c7ff97578499344002090ca5e658"
 }
