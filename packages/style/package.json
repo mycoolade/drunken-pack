@@ -1,6 +1,6 @@
 {
   "name": "@jdrunken/style",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "normalize style and scss util function for frontend dev",
   "scripts": {
     "dev": "gulp dev",
