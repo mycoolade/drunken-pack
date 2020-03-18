@@ -58,7 +58,7 @@ module.exports = {
           'minProperties': 8
         }
       }
-    ]
+    ],
     'flowtype/define-flow-type': 2,
     'react/jsx-closing-bracket-location': [
       1,
