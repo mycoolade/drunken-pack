@@ -20,7 +20,10 @@ module.exports = {
     'global-require': 0,
     'func-names': 0,
     'function-paren-newline': 0,
-    'semi': [ 2, 'never' ],
+    'semi': [
+      2,
+      'never'
+    ],
     'prefer-arrow-callback': 0,
     eqeqeq: 0,
     'wrap-iife': 0,
@@ -48,7 +51,6 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'react/jsx-filename-extension': 0,
     'react/destructuring-assignment': 0,
-    'react/jsx-fragments': 0,
     'react/jsx-one-expression-per-line': 0,
     'object-curly-newline': [
       'error',
