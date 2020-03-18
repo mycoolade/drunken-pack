@@ -63,6 +63,7 @@ rules:
     - deg
     - vw
     - vh
+    - fr
 
   # value
   value-list-comma-space-after: always-single-line
