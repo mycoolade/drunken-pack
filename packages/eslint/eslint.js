@@ -62,7 +62,7 @@ module.exports = {
     }],
     'react/require-default-props': 'off',
     curly: [2, 'all'],
-    'react/jsx-fragments': ['error', 'element'],
+    'react/jsx-fragments': [0],
     'react/jsx-props-no-spreading': [
       'off', {
         html: 'ignore',
